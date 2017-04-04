@@ -39,7 +39,11 @@ def eldest_customer_per_state(customers):
     }
     """
     # Write your code here
-    pass
+  
+    for key, 'age' in customers:
+        if customers['age'] > 70
+        
+    return 
 
 
 class EldestCustomerTestCase(unittest.TestCase):
