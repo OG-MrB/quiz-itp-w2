@@ -29,7 +29,10 @@ def number_of_customers_per_state(customers):
     }
     """
     # Write your code here
-    pass
+    for key, 'name' in customers:
+        num_of_cust_in_state += 1
+    return num_of_cust_in_state
+        
 
 
 class NumberOfCustomersPerStateTestCase(unittest.TestCase):
